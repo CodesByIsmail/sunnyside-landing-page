@@ -21,7 +21,6 @@
     }
 }
 
-
 /* General Styles */
 
 h1 {
@@ -74,7 +73,6 @@ small {
     margin: 0 auto;
     text-align: center;
 }
-
 
 /* NAVBAR STYLING STARTS HERE */
 
@@ -146,9 +144,7 @@ nav {
 
 /* NAVBAR STYLING ENDS HERE */
 
-
 /* HEADER STYLING STARTS HERE */
-
 
 header {
     padding-top: 5rem;
@@ -180,7 +176,6 @@ img {
 }
 
 /* HEADER STYLING ENDS HERE */
-
 
 section {
     h2,
@@ -239,7 +234,6 @@ section {
     margin-bottom: 2rem;
 }
 
-
 /* FOOTER STYLING STARTS HERE */
 
 .footer__img {
@@ -292,13 +286,10 @@ section {
 
 /* FOOTER STYLING ENDS HERE */
 
-
-
 @media screen and (min-width: 1000px) {
     h1 {
-    font-size: 3rem;
-    
-}
+        font-size: 3rem;
+    }
 
     .nav__bar {
         display: flex;
@@ -324,10 +315,9 @@ section {
         }
 
         a:nth-last-child(1) {
-        color: var(--Grey-950);
-        background: var(--White);
-       
-    }
+            color: var(--Grey-950);
+            background: var(--White);
+        }
     }
 
     .nav__ctrl {
@@ -355,8 +345,6 @@ section {
     .standout__wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
-
     }
 
     .stand__out {
